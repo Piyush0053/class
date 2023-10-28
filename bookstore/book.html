@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <link rel="stylesheet" href="style.css" />
+ <title>Browser</title>
+ <style>
+ table,th,td{
+    width: 500px;
+    height: 10px;
+ border:1px solid black;
+ border-collapse:collapse;}
+ #images img{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+ }
+ #login{
+    height: 100px;
+ }
+ #aligncenter{
+ text-align: center;
+ }
+ #button button{
+    width: 100px;
+    height: 40px;
+    background-color: yellow;
+    border-radius: 20px;
+    color: black;
+ }
+ </style >
+</head>
+<body>
+ <table>
+ <tr>
+ <th><img src="bookstore.jpeg" height="40px" alt="book store"></th>
+ <th colspan="4">Book store</th>
+ </tr>
+ <tr id="aligncenter">
+ <td><a href="#home">HOME</a></td>
+ <td><a href="#login">LOGIN</a></td>
+ <td><a href="#registeration no.">REGISTERATION NO.</a></td>
+ <td><a href="#catalouge">CATALOUGE</a></td>
+ <td><a href="#cart">CART</a></td>
+ </tr>
+ <tr>
+ <td><a href="#cse">CSE</a><BR>
+ <br><a href="ECE">ECE</a><br><BR><a href="#EEE">EEE</a><BR><br><a
+href="#civil">CIVIL</a><br>
+ </td>
+ <td id="images" >
+<img src="book1.jpg" alt="">
+<img src="book2.jpeg" alt="">
+<img src="book3.jpeg" alt="">
+</td>
+ <td>
+    <p style="font-size: small;">BOOK:THE CODE BREAKER<BR>AUTHOR:WALTER ISSACSON<BR></p><br>
+    <p style="font-size: small;">BOOK:THE SECRET LIBRARY<BR>AUTHOR:OLIVER TEARLE<BR></p><br>
+    <p style="font-size: small;">BOOK:THE DROGON CURSE<BR>AUTHOR:D.C. KLEMENS<BR></p>
+ </td>
+ <td>
+    <p>$20.99</p><br><br><br>
+    <p>$49.99</p><br><br><br>
+    <p>$80.99</p>
+ </td>
+ <td id="button">
+    <button>ADD TO CART</button><BR><br><br><br>
+    <button>ADD TO CART</button><BR><br><br><br>
+    <button>ADD TO CART</button>
+ </td>
+ </tr>
+ </table>
+</body>
+</html> 
